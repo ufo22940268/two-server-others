@@ -1,0 +1,50 @@
+
+js/lang.js,630
+	"off": "off",tr.off3,40
+	"on": "on",tr.on4,55
+	"syntax": "Syntax-Highlighting",tr.syntax5,68
+	"lineno": "Line-Numbers",tr.lineno6,102
+	"reset": "Reset Slide",tr.reset7,129
+	"format": "Format Source Code",tr.format8,154
+	"kill": "Kill Program",tr.kill9,187
+	"run": "Run",tr.run10,212
+	"compile": "Compile and Run",tr.compile11,227
+	"more": "Options",tr.more12,258
+	"toc": "Table of Contents",tr.toc13,278
+	"prev": "Previous",tr.prev14,307
+	"next": "Next",tr.next15,328
+	"waiting": "Waiting for remote server...",tr.waiting16,345
+	"errcomm": "Error communicating with remote server.",tr.errcomm17,389
+
+js/tour.js,1089
+var slides, editor, $editor, $output;slides8,193
+var slide = null;slide9,231
+var slidenum = 0;slidenum10,249
+function L(k) {L13,291
+function init() {init22,438
+function toggleToc() {toggleToc163,3989
+function show(i) {show173,4160
+function reset() {reset233,5525
+function save(page) {save240,5645
+function load(page) {load245,5721
+function urlSlideNumber(url) {urlSlideNumber253,5820
+function pageUpDown(event) {pageUpDown269,6095
+var transport; // set by initTourtransport294,6551
+var running;running295,6585
+function body() {body297,6599
+function loading() {loading301,6647
+function run() {run305,6746
+function highlightOutput(wrappedOutput) {highlightOutput312,6902
+function kill() {kill319,7047
+var seq = 0;seq323,7098
+function format() {format325,7112
+function highlightErrors(text) {highlightErrors351,7676
+function clearHighlightOnChange() {clearHighlightOnChange364,7960
+function getcookie(name) {getcookie373,8177
+function setcookie(name, value, expire) {setcookie388,8539
+window.initTour = function(t) {window.initTour395,8788
+
+Makefile,0
+
+test.py,19
+def foo():foo1,0
