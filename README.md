@@ -4,10 +4,10 @@
 
 ## 部署方法
 
-- mkdir $GOPATH/src/code.google.com
-- cd $GOPATH/src/code.google.com
-- git clone https://github.com/ufo22940268/two-server-others.git p
-- cd p/go-tour/
-- make
+- `mkdir $GOPATH/src/code.google.com`
+- `cd $GOPATH/src/code.google.com`
+- `git clone https://github.com/ufo22940268/two-server-others.git p`
+- `cd p/go-tour/`
+- `make`
 
 
