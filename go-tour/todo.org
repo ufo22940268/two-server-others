@@ -1,0 +1,9 @@
+
+* TODO 输出错误日志，如果运行出错的时候。
+* TODO 替换tutorial中的内容为python的
+* TODO 替换界面上的一些go相关的要素
+  - [ ] 右上角go的标志
+  - [ ] 左侧左下的可爱的logo
+  - [ ] 网页的titile
+* TODO 添加tutoria的验证
+* TODO 如果验证通过之后自动翻页
