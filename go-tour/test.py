@@ -1,2 +1,6 @@
+print "hello python world"
+
+f = open("/tmp/k", "w")
 while True:
-	print "a"
+	f.write("hongbosb\n")
+	f.flush()
