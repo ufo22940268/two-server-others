@@ -1,1 +1,2 @@
-print "hello python world"asdfasfd
+while True:
+	print "a"

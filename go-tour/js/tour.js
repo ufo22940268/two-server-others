@@ -302,7 +302,8 @@ function loading() {
 	$output.html('<pre><span class="loading">'+L('waiting')+'</span></pre>');
 }
 
-function run() {
+// Originally is the run command, but for ruby and python, i used the format function to handle the run action.
+function format() {
 	kill();
 	loading();
 	var output = highlightOutput(PlaygroundOutput($output.find("pre")[0]));
@@ -322,7 +323,8 @@ function kill() {
 
 var seq = 0;
 
-function format() {
+// The format function for go tour.
+function run() {
 	seq++;
 	var cur = seq;
 	loading();
