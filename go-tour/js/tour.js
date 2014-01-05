@@ -339,7 +339,7 @@ function format() {
 			    $('<pre class="error" />').text(data.Error).appendTo($output);
 			    highlightErrors(data.Error);
 			} else {
-                            $('<pre class="error" />').text(data.Body).appendTo($output);
+                            $('<pre class="system" />').text(data.Body).appendTo($output);
 			}
 		},
 		error: function() {
