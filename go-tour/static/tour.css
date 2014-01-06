@@ -17,7 +17,7 @@ body {
 	min-height: 100%;
 	margin: 0 0 0 auto;
 	width: 550px;
-	background: #FFF url(gopher.png) no-repeat 1.2em bottom;
+	background: #FFF url(python_icon.png) no-repeat 1.2em bottom;
 	position: relative;
 }
 
@@ -44,8 +44,9 @@ h1 {
 }
 
 #tocbtn {
-	background: url(tocbtn.png) no-repeat left;
-	width: 42px;
+	/* background: url(tocbtn.png) no-repeat left; */
+
+    width: 42px;
 	height: 50px;
 	display: block;
 	position: absolute;
