@@ -24,12 +24,3 @@ Python有超级碉堡的list数组，你可以用超酷的方式[[http://docs.py
 
 
 .play prog/tour/list_comprehension.py
-
-* Imports
-
-This code groups the imports into a parenthesized, "factored" import statement. You can also write multiple import statements, like:
-
-	import "fmt"
-	import "math"
-
-.play prog/tour/imports.go
